@@ -1,0 +1,83 @@
+algoritmos de encriptado			motor de plantillas blade 
+
+MD5	SHA1	SHA256	BLOWFISH
+
+instalar laravel desde compose
+composer global require laravel/installer
+
+crea nuevo proyecto
+laravel new blog
+
+otro servidor
+php artisan serve
+
+crear controlador
+php artisan make:controller nombreController (por convesión se usa Controller)
+
+rutas en laravel 7 o previo
+https://www.youtube.com/watch?v=0YxgCH2R2bE&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF&index=3&ab_channel=CodersFree
+
+realizar migraciones
+php artisan migrate
+
+crea migración (para crear tabla)
+php artisan make:migration nombre//create_nombre_table			or		php artisan make:migration add_columna_to_nombretabla_table
+
+revertir migración
+php artisan migrate:rollback
+
+reinicia la tabla
+php artisan migrate:reset
+
+borra cada tabla y luego up //borra datos
+php artisan migrate:fresh
+
+ejecuta down de cada tabla y luego up
+php artisan migrate:refresh
+
+crea modelo de la tabla
+php artisan make:model nombremodelo (prefireblemente igual a la tabla que administrará)
+
+uso de la api para model
+php artisan tinker
+
+usar seede para general registros 
+php artisan db.seed
+
+
+ formvalidation	(JQuery)
+validar formularios
+http://alfredobarron.github.io/smoke/index.html#/
+
+Route::resource
+https://www.youtube.com/watch?v=PT6BoDQdkXk&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF&index=20&ab_channel=CodersFree
+
+Oauth 2, Passport para creación de api con autenticación
+
+https://platzi.com/tutoriales/1467-curso-php-laravel/7629-api-rest-en-laravel-8-con-autenticacion-jwt/
+
+https://www.techiediaries.com/laravel-8-rest-api-crud-mysql/
+
+
+https://www.youtube.com/watch?v=5z32fnHc4X8&list=PLU8oAlHdN5Bk-qkvjER90g2c_jVmpAHBh&index=22&ab_channel=pildorasinformaticas
+https://www.youtube.com/watch?v=oBxfBlV_2sU&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF&index=15&ab_channel=CodersFree
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://jairogarciarincon.com/clase/creacion-de-un-cms-desde-cero-con-patron-mvc/usuariocontroller
+https://codingstatus.com/admin-panel-template-php/
+https://laraveles.com/panel-administracion-laravel-paquete-voyager/

@@ -1,0 +1,37 @@
+
+npm install -g @angular/cli		#instala angular cli
+
+ng new my-dream-app			#crea proyecto
+		
+ng
+
+ng serve				#ejecuta el servidor
+
+ng generate component nombre/ ng g c nombre		#crea componente
+
+
+<etiqueta *ngFor= "let varible of variables">
+	{{variable}}
+</etiqueta>
+*ngIf="condición"
+(evento)="método"
+<componente [variable_a_recibir]="valor"></componente>
+
+opcional:
+		variable: tipo = valor;
+<form (submit) = "metodo(identificador)">		metodo(){	return false;}
+	<input type="text" #identificdor>
+	<button>
+		texto
+	</button>
+</form>
+
+ ng generate service nombre
+service
+
+
+https://www.youtube.com/watch?v=OrCdt865WOg&ab_channel=Fazt
+
+
+
+

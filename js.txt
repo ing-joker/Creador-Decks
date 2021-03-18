@@ -1,0 +1,59 @@
+array.some(f)		##itera el array y devuelve True/False
+array.map(f)		##itera y aplica la función a cada elemento 
+array.filter(f)		##devuelve array con elementos que cumplan f
+array.every(f)		##devuelve true si todos los elementos cumplen f
+array.forEach(f)	##ejecuta f una vez por cada elemento del array
+array.find(f)		##devuelve el valor del primer elemento del array que cumple f
+array.push()		##agrega elemento al final
+array.splice()		##inserta o reemplaza en posición indicada	(posición, 0 insert/1 replace, value)
+array.includes()	##true si el elemento existe en el array
+
+____________________________________________________________________________________________________________________________
+
+EVENTOS IMPORTANTES
+
+onblur			deseleccionar el elemento			button,input,label,select,textarea,body
+onchange		deseleccionar un elemento que se ha modificado	input,select,textarea
+onclick			pinchar y soltar el ratón			todos
+ondbclick		pinchar 2 veces seguidas			todos
+onfocus			seleccionar un elemento				button,input,label,select,textarea,body
+onkeydown		pulsar una tecla(sin soltar)			elementos de formulario y body
+onkeypress		pulsar una tecla				elementos de formulario y body
+onkeyup			soltar un tecla pulsada				elementos de formulario y body
+onmouseover		cursor se posa en el elemento
+onmouseout		cursor deja el elemento
+onload			el navegador finaliza el cargado de la página
+
+https://www.w3schools.com/howto/howto_js_popup.asp
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+https://www.w3schools.com/js/js_json_intro.asp
+https://codepen.io/FlorinCornea/pen/YzGeprR?fbclid=IwAR0VSvKu9qMMZv6X4GqGu0ok06u6DfSecp6FhbejmzMS8zWHt0RrSfyPlNc
+_____________________________________________________________________________________________________________________________
+
+JQ
+
+$(document).ready(function(){ ... });
+elemento.addEventListener(evento, función, false);	//removeEventListener()
+$(selector).hide().fadeIn(time);	aparece de a poco el contenido
+
+
+$(selector).html(nuevo contenido);	cambia el contenido dentro del contenedor, manipula etiquetas o regresa el valor
+$(selector).append(nuevo contenido);	agrega contenido dentro del contenedor (al final)
+$(selector).prepend(nuevo contenido);	agrega contenido dentro del contenedor (al inicio)
+.before(nuevo contenido)-> antes del contenedor		
+.after(nuevo contenido) -> después del contenedor
+.text(contenido) 			cambia el texto pero no manipula etiquetas o regresa el valor
+.val()					Establece o devuelve el valor de los campos de formulario
+.remove(elimina el elemento)
+.replaceWith(reemplaza el elemento)
+.addClass(clase)
+.removeClass(clase)
+.toggleClass("clase);		agrega/remueve la clase
+.css("propiedad", "valor"); o .css("propiedad":"valor","propiedad":"valor");     modificar css  .css("propiedad"); obtiene valor de propiedad
+
+
+
+
+
+
+

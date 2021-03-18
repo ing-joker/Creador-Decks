@@ -1,0 +1,64 @@
+﻿nl2br			-- Inserta saltos de línea HTML antes de todas las nuevas líneas de un string
+strval			--valor de una cadena (supongo tamaño)
+unset()			--destruye variable o eliminar posición de array (usar array_values)
+sort()			--ordena un array
+in_array()		--comprueba si un valor existe en array
+array_search()		--busca un valor en array y devuelve la primera clave
+array_product()		--multiplica elementos de array
+count()			--mismo que length
+array_reduce()		--vuelve array a un solo valor
+array_push()		--inserta mas de un elemento en array (para uno solo usar $array[]=--)
+array_map()		--Aplica la retrollamada a los elementos de los arrays dados
+array_unique()		--eliminar elementos duplicador (usar array_values)
+array_count_values()	--cuantos hay de cada elemento en el array
+array_splice()		--Elimina una porción del array y la reemplaza con otra cosa (si se requiere)
+array_slice()		--Extraer una parte de un array
+array_merge()		--combina arrays
+array_pop()		--quita el último elemento
+explode()		--divide una cadena en múltiples partes y la devuelve como un arrray
+implode()		--opuesto que implode
+htmlentities()		--Convierte todos los caracteres aplicables a entidades HTML
+strtoupper()		--
+isset()			--Determina si una variable está definida y no es null
+addslashes		--Escapa un string con barras invertidas
+---------------------------------------------------------------------------------------------------------------
+
+https://diego.com.es/expresiones-regulares-en-php
+
+
+foreach ($array as &$valor)
+
+constantes
+define("CONSTANTE", "Hola mundo.");		no se usa $ para usarla, debe ir en mayúsculas
+
+operadores lógicos
+and-&&,	or-||,	xor,	!$a,	
+
+$resultado = $condicion ? 'verdadero' : 'falso';	--operador ternario
+
+include("otro_archivo.php");
+require("otro_archivo.php");	idéntico a include excepto que en caso de fallo producirá un error fatal de nivel E_COMPILE_ERROR. En otras palabras, éste detiene el script
+require_once("archivo.php");	es idéntica a require excepto que PHP verificará si el archivo ya ha sido incluido y si es así, no se incluye (require) de nuevo.
+concatenar "primero" . "segundo"
+---------------------------------------------------------------------------------------------------------------
+propiedades en clase		var $propiedad;
+				private #propiedad	solo se  accede desde dentro de la clase (encapsulado)
+				usar un método para modificar dichos valores
+				protected para que se pueda modificar en la clase y las subclases
+function __construct() 		constructor
+$variable = new clase();
+
+$variable->propiedad;
+$variable->metodo_de_clase();
+
+en método
+	static $variable=valor;		para usarlo	self::$variable
+
+--------------------------------------------------------------------------------------------------------------------
+
+crypt()			--Hash de cadenas de un sólo sentido
+password_hash		--Crea un hash de contraseña
+password_verify		--Comprueba que la contraseña coincida con un hash
+
+
+

@@ -1,0 +1,84 @@
+﻿import os
+os.mkdir('static/directo/dinero')
+
+os.listdir(ruta)    # regresa una lista con los elementos del directorio
+
+os.rmdir("carpeta_vacia")  #elimina la carpeta vacía especificada
+
+os.rmtree("carpeta")        #elimina la carpeta especificada
+
+os.remove("archivo")        #elimina el archivo especificado
+
+dir(paquete)     #retorna los métodos del paquete
+
+sorted(lista)	#ordena (por defecto lo hace alfabéticamente)
+bitbucket
+############ GIT ########## GIT ########### GIT ########### GIT ########### GIT ########### 
+
+git init 		#iniciar
+git status		#status de los archivos
+git add archivo		#agrega archivo/carpeta al git
+git add .		#agrega todos los archivos/carpetas
+git reset HEAD archivo	#contrario a add
+git commit	wq	#agrega foto			
+git commit -m "mensaje"	#otra forma de commit
+git config --global user.email "you@example.com"	#email de usuario que está haciendo cambios
+git config --global user.name "Your Name"		#nombre de usuario que está haciendo cambios
+git restore archivo	#reestablece cambios realizados
+git diff archivo 	#muestra cambios realizdos
+git log			#muestra "vesiones"	(historial)
+git branch otro		#muestra la ubicacion/crea otra
+git checkout	otro	#cambia de ubicacion
+git checkout commit	#vuelve al commit ingresado
+git reset --hard HEAD~3	#descartan las revisiones
+git revert HEAD		#revertir último commit
+git log --oneline	#ver logs de archivo
+git checkout commit archivo	#vuelve archivo a commit
+git cherry-pick commit	#copia commit en otro branch
+git tag 06-10-20v1 -m "comentario"	#agrega etiqueta
+git push --tags		#sube tags a github
+git blame		#visualización de metadatos de autor adjuntos a líneas específicas confirmadas en un archivo.
+git fork		#crea una copia del repositorio en otra url
+git show		#muestra información de cualquier archivo
+git fetch 		#trae cambios pero en otro branch
+git-clean - 		#Eliminar archivos no registrados del árbol de trabajo
+git merge rama-secundaria#incorporar cambios desde otra rama a la rama master
+
+
+CSS
+
+flex-wrap: wrap;	#decirle a los elementos si saltan a la siguiente línea cuando se necesite
+	wrap-reverse	#van hacia arriba
+flex: 1/0;		#les da a los elementos el mismo espacio del contenedor	(válido en % y se puede asiganar a cada elemento)
+align-item: 		#alinear elementos para el eje secundario
+flex-grow:1,2,3...;	#cuánto crecerá el elemento en relación con el resto de los artículos flexibles
+flex-shrink:1,2,3...;	#cúanto más pequeño será que el resto de elementos
+flex-direction: 	#dirección del flex
+			#row|row-reverse|column|column-reverse|initial|inherit
+justify-content:	#alinear elementos para el eje principal
+			#flex-start,flex-end,center,space-between,space-around,inherit,initial,unset
+
+https://developers.facebook.com/docs/plugins/share-button?locale=es_ES#
+<link href="http://www.dominio.com/ruta/imagen.jpg" rel="image_src" />
+
+
+https://tympanus.net/Tutorials/CaptionHoverEffects/index7.html
+https://hasinhayder.github.io/ImageCaptionHoverAnimation/index4.html
+
+https://tympanus.net/Development/HoverEffectIdeas/index2.html
+https://ianlunn.github.io/Hover/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+﻿django-admin startproject nombre-proyecto
+
+
+python mamage.py runserver
+python manage.py startapp nombre-app
+
+
+pip install psycopg2	#necesaria para postgresql
+
+python manage.py migrate	#agregar cambios de tablas a la base de datos
+python manage.py makemigrations	#agrega cambios de las tablas antes de migrate
+
+SELECT MAKE, count(MAKE) as VEHICLE_MAKE_COUNT FROM vehicle  group by make HAVING VEHICLE_MAKE_COUNT >=2
+_________________________________________________________________________________________________
+
+API--->	python manage.py shell
+variable = tabla.objects.create(columna=valor...)
+
+variable = tabla.objects.get(campo=valor)
+variable = tabla.objects.get(campo=valor, blank=True,null=True) #permite espacio en blanco
+variable.detele()
+
+variable = tabla.objects.all(), first(), last()
+
+variable = tabal.objects.filter(...),	campo__gte=x, campo__lte=x, __range(x,y)
+variable = tabla.objects.filter(...).order_by(campo) #agregar un - antes del campo para descendente
+latest(campo)	#último objeto de la tabla basado en el campo
+earliest(campo) #contratio de latest
+exists()
+.update(campo=valor)
+tabla.objects.get(campo__contains=valor)==select... where campo like '%valor%'
+############ LIKE  case-sensitive 	ILIKE case-insensitive(no importan mayúsculas)
+gt >,	gte>=,	lt<,	lte<=
+startswith  inicia con... case-sensitive	/istartswith
+endswith	finaliza con... ''''		/iendswith
+range == between en sql
+__date=datetime.date(2005,1,1)
+__year=x, __month=x, __day=x, __week=x, __hour=x, __minute=x, __second=x
+__isnull=True
+.count()
+https://docs.djangoproject.com/en/3.1/ref/models/querysets/
+
+______________________________________________________________________________________________
+
+
+python manage.py createsuperuser
+usar método __str__ para mejor visualización en panel admin
+
+
+https://www.django-rest-framework.org/tutorial/quickstart/
+
+
++ react
+https://platzi.com/blog/react-js-en-servidor-con-django/
+https://www.youtube.com/watch?v=uZgRbnIsgrA&ab_channel=JustDjango
+
+
+https://www.digitalocean.com/community/tutorials/como-crear-una-aplicacion-web-moderna-para-gestionar-la-informacion-de-clientes-con-django-y-react-on-ubuntu-18-04-es
+
+
+
+
+
+
+
+
+
+
+
+
