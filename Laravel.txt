@@ -12,7 +12,7 @@ otro servidor
 php artisan serve
 
 crear controlador
-php artisan make:controller nombreController (por convesión se usa Controller)
+php artisan make:controller nombreController (por convesiÃ³n se usa Controller)
 
 rutas en laravel 7 o previo
 https://www.youtube.com/watch?v=0YxgCH2R2bE&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF&index=3&ab_channel=CodersFree
@@ -20,10 +20,10 @@ https://www.youtube.com/watch?v=0YxgCH2R2bE&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-
 realizar migraciones
 php artisan migrate
 
-crea migración (para crear tabla)
+crea migraciÃ³n (para crear tabla)
 php artisan make:migration nombre//create_nombre_table			or		php artisan make:migration add_columna_to_nombretabla_table
 
-revertir migración
+revertir migraciÃ³n
 php artisan migrate:rollback
 
 reinicia la tabla
@@ -36,7 +36,7 @@ ejecuta down de cada tabla y luego up
 php artisan migrate:refresh
 
 crea modelo de la tabla
-php artisan make:model nombremodelo (prefireblemente igual a la tabla que administrará)
+php artisan make:model nombremodelo (prefireblemente igual a la tabla que administrarÃ¡)
 
 uso de la api para model
 php artisan tinker
@@ -44,6 +44,12 @@ php artisan tinker
 usar seede para general registros 
 php artisan db.seed
 
+nombre diferente a la ruta sin modificar
+route::resource...->names('nuevo nombre')
+
+subir imagen
+if ($request->hasFile('campo'){
+$variable_del_request['campo']=$request->file('campo')->store('uploads','public');}
 
  formvalidation	(JQuery)
 validar formularios
@@ -52,7 +58,7 @@ http://alfredobarron.github.io/smoke/index.html#/
 Route::resource
 https://www.youtube.com/watch?v=PT6BoDQdkXk&list=PLZ2ovOgdI-kWWS9aq8mfUDkJRfYib-SvF&index=20&ab_channel=CodersFree
 
-Oauth 2, Passport para creación de api con autenticación
+Oauth 2, Passport para creaciÃ³n de api con autenticaciÃ³n
 
 https://platzi.com/tutoriales/1467-curso-php-laravel/7629-api-rest-en-laravel-8-con-autenticacion-jwt/
 
