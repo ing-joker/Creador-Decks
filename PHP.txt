@@ -21,6 +21,9 @@ htmlentities()		--Convierte todos los caracteres aplicables a entidades HTML
 strtoupper()		--
 isset()			--Determina si una variable está definida y no es null
 addslashes		--Escapa un string con barras invertidas
+get_defined_vars()	--Devuelve una matriz con todas las variables definidas
+array_key_exists()	--Verifica si el índice o clave dada existe en el array
+trim()			-- Elimina espacio en blanco (u otro tipo de caracteres) del inicio y el final de la cadena
 ---------------------------------------------------------------------------------------------------------------
 
 https://diego.com.es/expresiones-regulares-en-php
