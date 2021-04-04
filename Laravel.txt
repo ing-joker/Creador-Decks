@@ -47,6 +47,9 @@ php artisan db.seed
 nombre diferente a la ruta sin modificar
 route::resource...->names('nuevo nombre')
 
+ver todas las rutas
+php artisan routes
+
 subir imagen
 if ($request->hasFile('campo'){
 $variable_del_request['campo']=$request->file('campo')->store('uploads','public');}
